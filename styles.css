@@ -1,0 +1,39 @@
+/* Background color for the webpage */
+body {
+    background-color: #f9f9f9;
+    font-family: 'Verdana', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for links with hover effects */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: #005bb5;
+}
+
+/* Card Component Styling */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 16px;
+    line-height: 1.5;
+}
